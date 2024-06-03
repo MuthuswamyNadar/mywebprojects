@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    text-align: center;
+}
+
+.eventinvite h1{
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.eventinvite .date,.description{
+    margin-bottom: 20px;
+    font-size: 1 rem;
+}
+
+.rvsmp{
+    padding: 10px 20px;
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+
+}
+.rvsmp:hover{
+    background-color:#8a60c2;
+}
+
+@media screen and (max-width:480px) {
+    .eventinvite{
+        padding: 15px;
+    }
+    .eventinvite h1{
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
